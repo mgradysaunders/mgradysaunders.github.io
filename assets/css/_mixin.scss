@@ -1,0 +1,51 @@
+// Mixins
+@mixin linear-gradient-bg($from, $to) {
+    background: -webkit-linear-gradient($from, $to);
+    background:    -moz-linear-gradient($from, $to);
+    background:      -o-linear-gradient($from, $to);
+    background:         linear-gradient($from, $to);
+}
+@mixin border-top-right-radius($radius) {
+    -webkit-border-top-right-radius: $radius;
+       -moz-border-top-right-radius: $radius;
+        -ms-border-top-right-radius: $radius;
+            border-top-right-radius: $radius;
+}
+@mixin border-top-left-radius($radius) {
+    -webkit-border-top-left-radius: $radius;
+       -moz-border-top-left-radius: $radius;
+        -ms-border-top-left-radius: $radius;
+            border-top-left-radius: $radius;
+}
+@mixin border-bottom-right-radius($radius) {
+    -webkit-border-bottom-right-radius: $radius;
+       -moz-border-bottom-right-radius: $radius;
+        -ms-border-bottom-right-radius: $radius;
+            border-bottom-right-radius: $radius;
+}
+@mixin border-bottom-left-radius($radius) {
+    -webkit-border-bottom-left-radius: $radius;
+       -moz-border-bottom-left-radius: $radius;
+         ms-border-bottom-left-radius: $radius;
+            border-bottom-left-radius: $radius;
+}
+@mixin border-radius($radii) {
+    -webkit-border-radius: $radii;
+       -moz-border-radius: $radii;
+        -ms-border-radius: $radii;
+            border-radius: $radii;
+}
+@mixin box-shadow($offset, $radius, $alpha) {
+    -webkit-box-shadow: -$offset $offset $radius 0 rgba(0,0,0,$alpha);
+       -moz-box-shadow: -$offset $offset $radius 0 rgba(0,0,0,$alpha);
+            box-shadow: -$offset $offset $radius 0 rgba(0,0,0,$alpha);
+}
+@mixin background-clip($what) {
+    -webkit-background-clip: $what;
+       -moz-background-clip: $what;
+            background-clip: $what;
+}
+@mixin transform($expr) {
+    -webkit-transform: $expr;
+            transform: $expr;
+}
