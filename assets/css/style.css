@@ -1,45 +1,64 @@
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,300i,400,400i,700,700i");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700,700i&subset=greek,greek-ext");
 /* Barlow */
+/*
 @font-face {
-  font-style: normal;
-  font-weight: 300;
-  font-family: My_Barlow;
-  src: local("Barlow Light"), local("Barlow-Light"), url(/assets/fonts/Barlow/Barlow-Light.ttf); }
+    font-style: normal;
+    font-weight: 300;
+    font-family: My_Barlow;
+    src: local('Barlow Light'),
+         local('Barlow-Light'),
+         url(/assets/fonts/Barlow/Barlow-Light.ttf); }
 @font-face {
-  font-style: italic;
-  font-weight: 300;
-  font-family: My_Barlow;
-  src: local("Barlow Light Italic"), local("Barlow-Light-Italic"), url(/assets/fonts/Barlow/Barlow-LightItalic.ttf); }
+    font-style: italic;
+    font-weight: 300;
+    font-family: My_Barlow;
+    src: local('Barlow Light Italic'),
+         local('Barlow-Light-Italic'),
+         url(/assets/fonts/Barlow/Barlow-LightItalic.ttf); }
 @font-face {
-  font-style: normal;
-  font-weight: 400;
-  font-family: My_Barlow;
-  src: local("Barlow Regular"), local("Barlow-Regular"), url(/assets/fonts/Barlow/Barlow-Regular.ttf); }
+    font-style: normal;
+    font-weight: 400;
+    font-family: My_Barlow;
+    src: local('Barlow Regular'),
+         local('Barlow-Regular'),
+         url(/assets/fonts/Barlow/Barlow-Regular.ttf); }
 @font-face {
-  font-style: italic;
-  font-weight: 400;
-  font-family: My_Barlow;
-  src: local("Barlow Italic"), local("Barlow-Italic"), url(/assets/fonts/Barlow/Barlow-Italic.ttf); }
+    font-style: italic;
+    font-weight: 400;
+    font-family: My_Barlow;
+    src: local('Barlow Italic'),
+         local('Barlow-Italic'),
+         url(/assets/fonts/Barlow/Barlow-Italic.ttf); }
 @font-face {
-  font-style: normal;
-  font-weight: 500;
-  font-family: My_Barlow;
-  src: local("Barlow SemiBold"), local("Barlow-SemiBold"), url(/assets/fonts/Barlow/Barlow-SemiBold.ttf); }
+    font-style: normal;
+    font-weight: 500;
+    font-family: My_Barlow;
+    src: local('Barlow SemiBold'),
+         local('Barlow-SemiBold'),
+         url(/assets/fonts/Barlow/Barlow-SemiBold.ttf); }
 @font-face {
-  font-style: italic;
-  font-weight: 500;
-  font-family: My_Barlow;
-  src: local("Barlow SemiBold Italic"), local("Barlow-SemiBold-Italic"), url(/assets/fonts/Barlow/Barlow-SemiBoldItalic.ttf); }
+    font-style: italic;
+    font-weight: 500;
+    font-family: My_Barlow;
+    src: local('Barlow SemiBold Italic'),
+         local('Barlow-SemiBold-Italic'),
+         url(/assets/fonts/Barlow/Barlow-SemiBoldItalic.ttf); }
 @font-face {
-  font-style: normal;
-  font-weight: 700;
-  font-family: My_Barlow;
-  src: local("Barlow Bold"), local("Barlow-Bold"), url(/assets/fonts/Barlow/Barlow-Bold.ttf); }
+    font-style: normal;
+    font-weight: 700;
+    font-family: My_Barlow;
+    src: local('Barlow Bold'),
+         local('Barlow-Bold'),
+         url(/assets/fonts/Barlow/Barlow-Bold.ttf); }
 @font-face {
-  font-style: italic;
-  font-weight: 700;
-  font-family: My_Barlow;
-  src: local("Barlow Bold Italic"), local("Barlow-Bold-Italic"), url(/assets/fonts/Barlow/Barlow-BoldItalic.ttf); }
+    font-style: italic;
+    font-weight: 700;
+    font-family: My_Barlow;
+    src: local('Barlow Bold Italic'),
+         local('Barlow-Bold-Italic'),
+         url(/assets/fonts/Barlow/Barlow-BoldItalic.ttf); }
+         */
 /* Fira Code */
 @font-face {
   font-style: normal;
@@ -184,7 +203,7 @@ h1 {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 16px;
   margin-bottom: 8px;
-  font-family: My_Barlow, serif; }
+  font-family: "Open Sans", sans-serif; }
 
 code, pre {
   font-size: 16px;
