@@ -47,6 +47,13 @@
     <!-- Load stylesheet -->
     <link rel="stylesheet" href="/assets/css/style.css">
 
+<svg>
+    <defs>
+        <clipPath id="clipping">
+            <circle cx="50" cy="50" r="50"/>
+        </clipPath>
+    </defs>
+</svg>
 <style>
 .page-head {
     border-color: #c56000; }
@@ -54,6 +61,11 @@
     background: #ff8f00; }
 .page-head-2 {
     background: #c56000; }
+img {
+    float: left;
+    margin-right: 16px;
+    clip-path: url(#clipping);
+}
 </style>
 
 </head>
