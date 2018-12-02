@@ -168,6 +168,12 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 8px;
   font-family: "Open Sans", sans-serif; }
 
+hr {
+  border: none;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: lightgray; }
+
 code, pre {
   font-size: 14px;
   font-family: My_FiraCode, "Roboto Mono", monospace, fixed; }
