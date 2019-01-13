@@ -27,17 +27,14 @@ features for eventual integration with [DIRSIG5][5], the
 _Digital Imaging and Remote Sensing Image Generation_ software developed
 by Scott Brown and Adam Goodenough.
 
-In my free time, I'm actively developing two type-generic, header-only 
-C++17/C++20 projects:
-- [Platinum][6], a dense numerical linear algebra package, and
-- [Erffamily][7], a modern interface to the complex error function
-and its relatives.
+As of late, I've begun stockpiling code I've written countless 
+times into [preform][6], a header only, template heavy C++11/14/17 
+repository.
 
-For a complete list of projects, click [here][8].
+For a complete list of projects, click [here][7].
 
 [4]: https://mgradysaunders.github.io/labyrinth
 [5]: http://dirsig.org/
-[6]: https://mgradysaunders.github.io/platinum
-[7]: https://mgradysaunders.github.io/erffamily
-[8]: https://github.com/mgradysaunders?tab=repositories
+[6]: https://mgradysaunders.github.io/preform
+[7]: https://github.com/mgradysaunders?tab=repositories
 
