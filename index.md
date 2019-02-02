@@ -28,7 +28,7 @@ _Digital Imaging and Remote Sensing Image Generation_ software developed
 by Scott Brown and Adam Goodenough.
 
 As of late, I've begun stockpiling code I've written countless 
-times into [preform][6], a header only, template heavy C++11/14/17 
+times into [Preform][6], a header only, template heavy C++11/14/17 
 repository.
 
 For a complete list of projects, click [here][7].
