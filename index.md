@@ -21,20 +21,12 @@ where I manage open-source repositories for my current projects.
 
 ### Projects
 
-As part of my graduate research, I'm developing [Labyrinth][4], a C++14 
-codebase for time-parametric modeling of maize canopy geometry and spectral
-features for eventual integration with [DIRSIG5][5], the
-_Digital Imaging and Remote Sensing Image Generation_ software developed
-by Scott Brown and Adam Goodenough.
-
 As of late, I've begun stockpiling code I've written countless 
-times into [Preform][6], a header only, template heavy C++11/14/17 
+times into [Preform][4], a header only, template heavy C++11/14/17 
 repository.
 
-For a complete list of projects, click [here][7].
+For a complete list of projects, click [here][5].
 
-[4]: https://mgradysaunders.github.io/labyrinth
-[5]: http://dirsig.org/
-[6]: https://mgradysaunders.github.io/preform
-[7]: https://github.com/mgradysaunders?tab=repositories
+[4]: https://mgradysaunders.github.io/preform
+[5]: https://github.com/mgradysaunders?tab=repositories
 
