@@ -35,71 +35,70 @@ body {
     line-height: 24px; }
   body h1 {
     font-size: 150%;
-    margin-bottom: 24px; }
+    margin-bottom: 8px; }
   body h2 {
     font-size: 150%; }
   body code {
     font-size: 14px; }
 
+/*
 .docs-menu {
-  width: 25%;
-  float: left;
-  -webkit-box-shadow: -4px 4px 8px 0 rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: -4px 4px 8px 0 rgba(0, 0, 0, 0.2);
-  box-shadow: -4px 4px 8px 0 rgba(0, 0, 0, 0.2); }
+    width: 25%;
+    float: left;
+    @include box-shadow(4px, 8px, 0.2); }
 
 .docs-menu-head {
-  margin: 0;
-  padding: 16px;
-  background: orange;
-  color: white;
-  border-width: 1px;
-  border-style: solid;
-  border-color: darkorange;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: darkorange; }
-  .docs-menu-head h1 {
-    font-size: 300%; }
-  .docs-menu-head h1, .docs-menu-head h2, .docs-menu-head h3, .docs-menu-head h4, .docs-menu-head h5, .docs-menu-head h6 {
-    border: none; }
-  .docs-menu-head a {
+    margin: 0;
+    padding: 16px;
+    background: orange;
     color: white;
-    font-weight: normal;
-    text-decoration: none; }
-    .docs-menu-head a:hover {
-      text-decoration: underline; }
+    h1 {
+        font-size: 300%; }
+    h1, h2, h3, h4, h5, h6 {
+        border: none; }
+    border-width: 1px;
+    border-style: solid;
+    border-color: darkorange;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: darkorange; 
+    a {
+        &:hover { 
+            text-decoration: underline; }
+        color: white;
+        font-weight: normal;
+        text-decoration: none; }  }
 
 .docs-menu-body {
-  margin: 0;
-  padding: 16px;
-  color: #333;
-  background: white;
-  border-width: 1px;
-  border-style: solid;
-  border-color: darkgray;
-  border-top: none; }
-  .docs-menu-body h3 {
-    color: gray;
-    margin-top: 4px;
-    font-size: 11px;
-    font-weight: normal;
-    font-family: "IBM Plex Sans", sans-serif; }
-  .docs-menu-body li {
-    font-size: 11px;
-    padding-top: 4px;
-    padding-bottom: 8px;
-    margin-left: -24px;
-    list-style-position: outside;
-    list-style-type: none; }
-    .docs-menu-body li a {
-      color: black;
-      font-weight: normal;
-      text-decoration: none; }
-      .docs-menu-body li a:hover {
-        text-decoration: underline;
-        color: gray; }
-
+    h3 {
+        color: gray;
+        margin-top: 4px;
+        font-size: 11px;
+        font-weight: normal;
+        font-family: $BODY_FONT_FAMILY; }
+    margin: 0;
+    padding: 16px;
+    color: #333;
+    background: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: darkgray;
+    border-top: none; 
+    li {
+        font-size: 11px;
+        padding-top: 4px;
+        padding-bottom: 8px;
+        margin-left: -24px;
+        a {
+            &:hover { 
+                text-decoration: underline;
+                color: gray; }
+            color: black;
+            font-weight: normal;
+            text-decoration: none; } 
+        list-style-position: outside;
+        list-style-type: none; } }
+*/
 .page-frame {
   padding-left: 16px;
   padding-right: 16px;
@@ -118,12 +117,13 @@ body {
   padding: 0;
   background: orange;
   color: white;
-  border-width: 1px;
-  border-style: solid;
-  border-color: darkorange;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: darkorange; }
+  border-width: 0px;
+  /*  border-width: 1px;
+      border-style: solid;
+      border-color: darkorange;
+      border-bottom-width: 1px;
+      border-bottom-style: solid;
+      border-bottom-color: darkorange;  */ }
   .page-head h1 {
     font-size: 300%; }
   .page-head h1, .page-head h2, .page-head h3, .page-head h4, .page-head h5, .page-head h6 {
@@ -153,9 +153,10 @@ body {
   padding: 32px;
   color: #333;
   background: white;
-  border-width: 1px;
-  border-style: solid;
-  border-color: darkgray; }
+  border-width: 0px;
+  /*  border-width: 1px;
+      border-style: solid;
+      border-color: darkgray;  */ }
 
 h1 {
   border-bottom-width: 1px;
