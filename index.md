@@ -8,7 +8,7 @@ subtitle: Hello, world!
 
 <img width="100px" height="100px" src="/assets/images/profile.png">
 
-I'm Grady, a second-year PhD student at the [Chester F. Carlson 
+I'm Grady, a graduate student at the [Chester F. Carlson 
 Center for Imaging Science][1] at the [Rochester Institute of 
 Technology][2]. My primary interests are computer graphics and scientific
 computing. I spend a fair amount of time programming in C/C++, Python, and
