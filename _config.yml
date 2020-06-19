@@ -1,7 +1,6 @@
 author: M. Grady Saunders
 source: .
 title: mgradysaunders.github.io
-logo: ./images/profile.png
 description: C++17 header-only utilities
 destination: ./_site
 encoding: "utf-8"
